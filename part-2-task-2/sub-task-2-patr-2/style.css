@@ -20,3 +20,8 @@ td, th{
 .colspan-4{
     text-align: left;
 }
+
+a{
+    text-decoration: none;
+    color: rgb(229, 168, 178);
+}
