@@ -1,0 +1,45 @@
+.container{
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.mtb-3{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.table{
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+}
+
+.table th, table td{
+    text-align: center;
+    padding: 10px;
+}
+
+.table th{
+    color: aliceblue;
+    background-color: rgb(18, 182, 204);
+}
+
+.table th:nth-child(odd){
+    background: rgb(105, 191, 202);
+}
+
+.table tr:nth-child(even){
+    background: rgb(243, 241, 241);
+}
+
+.table tr{
+    transition: all 1s;
+}
+
+.table tr:hover{
+    background-color: rgb(218, 214, 214);
+}
+
+
